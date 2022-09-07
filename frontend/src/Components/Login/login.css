@@ -1,0 +1,82 @@
+.loginFormWrapper {
+    width: 100%;
+    height: 100vh;
+    background-color: #101010;
+}
+
+.testUserBtn {
+    top: 0;
+    left: 0;
+    color: #ffffff;
+    position: absolute;
+    margin: 1% 0 0 1.5%;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 10px 15px;
+    background-color: #4637f2;
+    cursor: pointer;
+}
+
+.loginForm {
+    top: 45%;
+    left: 50%;
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.loginForm input[type="text"], input[type="password"] {
+    width: 100%;
+    margin: 8px 0;
+    color: #f9f9f9;
+    padding: 10px 15px;
+    outline: rgba(70, 55, 242, 0.5);
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid #0D0D0D;
+    background-color: #2e2f2f;
+}
+
+.loginForm input[type="text"]::placeholder, input[type="password"]::placeholder {
+    color: #5c636e;
+}
+
+.loginForm .passwordContainer {
+    position: relative;
+}
+
+.loginForm .passwordContainer i {
+    color: #f9f9f9;
+    position: absolute;
+    top: 15px;
+    right: 6.5px;
+    z-index: 2;
+    cursor: pointer;
+    font-size: 18px;
+    transform: translateY(2px);
+}
+
+.loginForm button[type="submit"] {
+    width: 100%;
+    border: none;
+    margin: 3px 0;
+    color: #f9f9f9;
+    cursor: pointer;
+    margin-bottom: 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 17px;
+    background: linear-gradient(90deg, rgba(70,55,242,1) 0%, rgba(129,65,253,1) 100%);
+}
+
+.loginForm button[type="submit"]:hover {
+    background: #4637f2;
+}
+
+.loginForm .errorText {
+    color: #ff4848;
+    text-align: left;
+    margin-top: 5px;
+}

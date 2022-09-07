@@ -1,0 +1,29 @@
+.profileWrapper {
+    width: 100%;
+    height: 100vh;
+    background-color: #101010;
+}
+
+.profile {
+    top: 45%;
+    left: 50%;
+    width: 30%;
+    height: 30%;
+    color: #ffffff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.logoutBtn {
+    right: 0;
+    width: 7.5%;
+    bottom: 0;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    margin: 0 2% 1.5% 0;
+    padding: 10px 15px;
+    position: absolute;
+    background-color: #4637f2;
+}
+
